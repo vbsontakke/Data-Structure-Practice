@@ -18,7 +18,7 @@ class Solution(object):
         count = 0 
         while count < len(nums)-1: 
             if nums[count] > nums[count+1]:
-                return count
+                return count 
             count = count + 1
 
         return len(nums)    
